@@ -1618,7 +1618,9 @@ pre code {
   .image-container {
     margin: auto;
   }
-
+  .contact {
+    margin-left: 0 !important;
+  }
   .work-item {
     text-align: center;
   }
