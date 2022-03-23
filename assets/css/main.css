@@ -1615,7 +1615,13 @@ pre code {
     box-sizing: border-box;
     align-items: stretch;
   }
+  .image-container {
+    margin: auto;
+  }
 
+  .work-item {
+    text-align: center;
+  }
   .row > * {
     box-sizing: border-box;
   }
@@ -1805,7 +1811,7 @@ pre code {
   }
 
   .row > * {
-    padding: 0 0 0 1.5em;
+    padding: 0;
   }
 
   .row.gtr-uniform {
