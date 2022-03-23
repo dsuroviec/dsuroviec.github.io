@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
   <head>
     <title>Darren Suroviec</title>
@@ -51,21 +47,33 @@
       <section id="two">
         <h2>Sample Projects</h2>
         <div class="row">
-          <article class="col-6 col-12-xsmall work-item">
+          <article
+            style="position: relative"
+            class="col-6 col-12-xsmall work-item"
+          >
+          <div style="display:flex ; justify-content: center;">
+            <img style="width: 100%" src="images/laptop.png" />
             <a
-              href="https://e-commerce-clone-production.up.railway.app/"
-              target="_blank"
-              class="image fit thumb"
-              ><img src="images/thumbs/crunchy.jpg" alt=""
-            /></a>
-
+            href="https://e-commerce-clone-production.up.railway.app/"
+            target="_blank"
+            class="image fit thumb"
+            style="position: absolute; width: 70%; aspect-ratio: 636/344 ;top:3.5%"
+           >
+            <img src="images/thumbs/crunchy.jpg" style="aspect-ratio: 636/344" ; alt=""
+            /> </a>
+          </div>
             <h3 style="margin: 0">Crunchy - E commerce clone</h3>
 
             <p>
               Tech Stack: React, Typescript, Postgres, Node, Express,
               React-Router, React-Context, Tailwindcss, JWT, bcrypt, PopperJS
             </p>
+            <p>
+              Deployed with Railway
+            </p>
+           </a>
           </article>
+
           <article class="col-6 col-12-xsmall work-item">
             <a
               href="https://star-scout.vercel.app/"
@@ -75,7 +83,7 @@
             /></a>
             <h3>Star Scout - Star Wars character lookup</h3>
             <p>Tech Stack: NextJS, Vercel, Tailwindcss, Swapi API</p>
-          </article>
+            <p>Deployed with Vercel</p></article>
           <article class="col-6 col-12-xsmall work-item">
             <a
               href="https://dsuroviec.github.io/nutty-mines"
