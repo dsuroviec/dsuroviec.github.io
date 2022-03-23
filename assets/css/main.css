@@ -2684,6 +2684,7 @@ input[type="button"]:disabled,
 
 .work-item {
   margin: 0 0 2em 0;
+  min-width: 368px;
 }
 
 .work-item h3 {
@@ -3166,7 +3167,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Medium */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
   /* Basic */
 
   h1 br,
@@ -3251,7 +3252,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Small */
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 830px) {
   /* Basic */
 
   h1 {
