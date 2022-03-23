@@ -2729,7 +2729,7 @@ input[type="button"]:disabled,
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
-  background-size: auto, 130%;
+  background-size: auto, 150%;
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
@@ -3173,7 +3173,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Medium */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 980px) {
   /* Basic */
 
   h1 br,
@@ -3258,7 +3258,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Small */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 736px) {
   /* Basic */
 
   h1 {
